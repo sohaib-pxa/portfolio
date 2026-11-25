@@ -4,9 +4,9 @@ import swordImg from "@/assets/sword.png";
 import cloverImg from "@/assets/clover.png";
 
 const LINKS = [
-  { label: "LinkedIn", href: "https://linkedin.com/in/YOUR-HANDLE" },
-  { label: "GitHub", href: "https://github.com/YOUR-HANDLE" },
-  { label: "Email", href: "mailto:you@example.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/bouanani-sohaib-5a7862449/" },
+  { label: "GitHub", href: "https://github.com/sohaib_pxa" },
+  { label: "Email", href: "os_bouanani@esi.dz" },
 ];
 
 type Project = {
