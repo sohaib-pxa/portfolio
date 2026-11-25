@@ -5,7 +5,7 @@ import cloverImg from "@/assets/clover.png";
 
 const LINKS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/bouanani-sohaib-5a7862449/" },
-  { label: "GitHub", href: "https://github.com/sohaib_pxa" },
+  { label: "GitHub", href: "https://github.com/sohaib-pxa" },
   { label: "Email", href: "os_bouanani@esi.dz" },
 ];
 
