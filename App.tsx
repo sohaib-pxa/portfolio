@@ -17,25 +17,25 @@ type Project = {
 };
 const PROJECTS: Project[] = [
   {
-    c: "var(--red)", cat: "Team project", title: "Delivery-Linking Platform", role: "Backend developer",
+    c: "var(--red)", cat: "Team project", title: "Delivery-Linking Platform", role: "Backend developer | Team Leader",
     desc: "A platform that connects customers, businesses and couriers around delivery orders. I designed and built the server side of the system: APIs, data models and business logic.",
-    stack: ["MongoDB", "Express", "React", "Node.js"], href: "#"
+    stack: ["PostgreSQL", "Express", "React", "Node.js"], href: "#"
   },
-  {
-    c: "var(--gold)", cat: "Solo project", title: "Student AI Assistant", role: "Designed and built alone",
-    desc: "An AI assistant made for students, helping them get answers and organize their study. Built end to end by me, from the idea to the working product.",
-    stack: ["AI", "Python"], href: "#"
-  },
-  {
-    c: "var(--blue)", cat: "Solo project", title: "Library Platform", role: "Full-stack, built alone",
-    desc: "A library management platform with a Next.js front end and a FastAPI service handling the catalog and user logic, backed by MongoDB.",
-    stack: ["Next.js", "FastAPI", "Python", "MongoDB"], href: "#"
-  },
-  {
-    c: "var(--green)", cat: "Solo project", title: "Store Application", role: "Full-stack, built alone",
-    desc: "An online store application with a Next.js storefront and a structured NestJS backend for products, orders and accounts.",
-    stack: ["Next.js", "NestJS", "TypeScript"], href: "#"
-  },
+  // {
+  //   c: "var(--gold)", cat: "Solo project", title: "Student AI Assistant", role: "Designed and built alone",
+  //   desc: "An AI assistant made for students, helping them get answers and organize their study. Built end to end by me, from the idea to the working product.",
+  //   stack: ["AI", "Python"], href: "#"
+  // },
+  // {
+  //   c: "var(--blue)", cat: "Solo project", title: "Library Platform", role: "Full-stack, built alone",
+  //   desc: "A library management platform with a Next.js front end and a FastAPI service handling the catalog and user logic, backed by MongoDB.",
+  //   stack: ["Next.js", "FastAPI", "Python", "MongoDB"], href: "#"
+  // },
+  // {
+  //   c: "var(--green)", cat: "Solo project", title: "Store Application", role: "Full-stack, built alone",
+  //   desc: "An online store application with a Next.js storefront and a structured NestJS backend for products, orders and accounts.",
+  //   stack: ["Next.js", "NestJS", "TypeScript"], href: "#"
+  // },
   {
     c: "var(--red)", cat: "From scratch", title: "micrograd", role: "Neural network library, built from scratch",
     desc: "A small automatic-differentiation and neural network library written from scratch to expose every step of backpropagation. It's how I made sure I understand what frameworks hide.",
