@@ -9,6 +9,8 @@ const LINKS = [
   { label: "Email", href: "os_bouanani@esi.dz" },
 ];
 
+const cvUrl = new URL("./cv/Sohaib_Bouanani_CV.pdf", import.meta.url).href;
+
 type Project = {
   c: string; cat: string; title: string; role: string; desc: string;
   stack: string[]; href: string; wide?: boolean; ml?: [string, string][];
@@ -159,7 +161,7 @@ export default function App() {
           <p className="pitch">I build backends that hold up and web apps that ship. Now I'm going deeper into machine learning, from scratch implementations to real datasets. I improve by building, breaking, and rebuilding.</p>
           <div className="cta">
             <a className="btn main" href="#work">See the work</a>
-            <a className="btn" href="#">Download CV</a>
+            <a className="btn" href={cvUrl} target="_blank" rel="noopener noreferrer">View CV</a>
           </div>
           <div className="stats">
             <div><b>3rd year</b><span>Computer science, ESI Algiers</span></div>
